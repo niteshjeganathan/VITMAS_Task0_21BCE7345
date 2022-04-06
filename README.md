@@ -19,7 +19,9 @@ git add *
 git add . 
 git add <filename>
 ```
+
 The first two lines will add all the files present in the current directory to the staging area. The third line will add the specific file to the staging area. 
+
 ---
 
 ##### Code
@@ -59,6 +61,7 @@ Untracked files:
 	untracked.txt
 
 ```
+---
 
 ##### Code
 ```
