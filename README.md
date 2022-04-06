@@ -149,5 +149,17 @@ This will push everything from your master branch in local repository to your re
 
 ##### Output 
 ```
+Username for 'https://github.com': niteshjeganathan
+Password for 'https://niteshjeganathan@github.com': 
+Counting objects: 3, done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 587 bytes | 587.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/niteshjeganathan/VITMAS_Task0_21BCE7345.git
+   5c6729c..c5ddc71  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+```
+---
+---
 
- 
