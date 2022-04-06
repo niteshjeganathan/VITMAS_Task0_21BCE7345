@@ -19,8 +19,7 @@ git add *
 git add . 
 git add <filename>
 ```
-
-First two lines of the code will add everything to the staging area that is present in your current directory. The third line will add the specific file to the staging area. 
+The first two lines will add all the files present in the current directory to the staging area. The third line will add the specific file to the staging area. 
 ---
 
 ##### Code
@@ -60,7 +59,6 @@ Untracked files:
 	untracked.txt
 
 ```
----
 
 ##### Code
 ```
@@ -79,3 +77,17 @@ Date:   Wed Apr 6 17:42:38 2022 +0530
 
 ```
 ---
+
+##### Code
+```
+git branch
+```
+
+This will list out all the branches present in the local repository. 
+
+##### Output
+```
+*master
+master2
+master3
+```
