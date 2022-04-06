@@ -94,3 +94,60 @@ This will list out all the branches present in the local repository.
 master2
 master3
 ```
+
+##### Code
+```
+git branch <branchName>
+```
+
+This will create a new barnch with the name "branchName". 
+
+---
+
+##### Code 
+```
+git checkout <branchName>
+```
+
+This will switch to the branch "branchName".
+
+##### Output
+```
+switched to branch "branchName"
+```
+
+---
+
+##### Code
+``` 
+git remote add origin <link>
+```
+
+This will add a remote server using the providing link and refer it as origin. 
+
+---
+
+##### Code 
+```
+git pull 
+``` 
+
+This will pull everything from the remote server onto your local repository. 
+
+##### Output 
+``` 
+Already up to date.
+```
+--- 
+
+##### Code 
+``` 
+git push - u origin master 
+```
+
+This will push everything from your master branch in local repository to your remote repository.
+
+##### Output 
+```
+
+ 
