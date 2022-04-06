@@ -5,5 +5,5 @@ git init
 ```
 
 <pre>
-Initialized empty Git repository in /home/nitesh/demo/.git/
+nitesh@nitesh-VirtualBox:~/demo$ git init
 </pre>
