@@ -1,6 +1,6 @@
 ## Basic GIT Commands
 
-##### Code
+##### **Code**
 ```
 git init
 ```
