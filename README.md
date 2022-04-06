@@ -1,19 +1,19 @@
 ## Basic GIT Commands
 
-##### <b>Code</b>
+#### Code
 ```
 git init
 ```
 
 This initiates a local repository on your system inside your current directory. 
 
-##### Output
+#### Output
 ```
 Initialized empty Git repository in /home/nitesh/demo/.git/
 ```
 ---
 
-##### Code
+#### Code
 ```
 git add * 
 git add . 
@@ -24,14 +24,14 @@ The first two lines will add all the files present in the current directory to t
 
 ---
 
-##### Code
+#### Code
 ```
 git commit -m "comment"
 ```
 
 This commits everything present in your staging area with the given comment.  
 
-##### Output
+#### Output
 ```
 master (root-commit) 0ad964f] comment
 1 file changed, 0 insertions(+), 0 deletions(-)
@@ -40,14 +40,14 @@ create mode 100644 <filename>
 ```
 ---
 
-##### Code
+#### Code
 ```
 git status
 ```
 
 This outputs the current status of all the files present in the current directory. 
 
-##### Output
+#### Output
 ```
 On branch master
 Changes to be committed:
@@ -63,14 +63,14 @@ Untracked files:
 ```
 ---
 
-##### Code
+#### Code
 ```
 git log
 ```
 
 This shows the recent actions made in the local repository. 
 
-##### Output
+#### Output
 ```
 commit 0ad964fdea228bb06d3b2fd2219272c16b396ad0 (HEAD -> master)
 Author: Nitesh <nitesh.jeganathan2021@vitstudent.ac.in>
@@ -81,21 +81,21 @@ Date:   Wed Apr 6 17:42:38 2022 +0530
 ```
 ---
 
-##### Code
+#### Code
 ```
 git branch
 ```
 
 This will list out all the branches present in the local repository. 
 
-##### Output
+#### Output
 ```
 *master
 master2
 master3
 ```
 
-##### Code
+#### Code
 ```
 git branch <branchName>
 ```
@@ -104,21 +104,21 @@ This will create a new barnch with the name "branchName".
 
 ---
 
-##### Code 
+#### Code 
 ```
 git checkout <branchName>
 ```
 
 This will switch to the branch "branchName".
 
-##### Output
+#### Output
 ```
 switched to branch "branchName"
 ```
 
 ---
 
-##### Code
+#### Code
 ``` 
 git remote add origin <link>
 ```
@@ -127,27 +127,27 @@ This will add a remote server using the providing link and refer it as origin.
 
 ---
 
-##### Code 
+#### Code 
 ```
 git pull 
 ``` 
 
 This will pull everything from the remote server onto your local repository. 
 
-##### Output 
+#### Output 
 ``` 
 Already up to date.
 ```
 --- 
 
-##### Code 
+#### Code 
 ``` 
 git push - u origin master 
 ```
 
 This will push everything from your master branch in local repository to your remote repository.
 
-##### Output 
+#### Output 
 ```
 Username for 'https://github.com': niteshjeganathan
 Password for 'https://niteshjeganathan@github.com': 
