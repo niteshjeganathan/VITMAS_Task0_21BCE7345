@@ -163,3 +163,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 ---
 ---
 
+### Youtube Demonstration
+Here's a video demonstrating the above commands and more...
+[BASIC GUI COMMANDS](https://youtu.be/G-zamdem53Q"BASIC GUI COMMANDS")
+
