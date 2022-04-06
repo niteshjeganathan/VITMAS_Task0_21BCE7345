@@ -1,9 +1,10 @@
 ## Basic GIT Commands
 
+##### Code
 ```
 git init
 ```
-
-<pre>
+##### Output
+```
 Initialized empty Git repository in /home/nitesh/demo/.git/
-</pre>
+```
