@@ -20,8 +20,7 @@ git add .
 git add <filename>
 ```
 
-First two lines of the code will add everything to the staging area that is present in your current directory. 
-The third line will add the specific file to the staging area. 
+First two lines of the code will add everything to the staging area that is present in your current directory. The third line will add the specific file to the staging area. 
 ---
 
 ##### Code
